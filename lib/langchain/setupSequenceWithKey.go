@@ -93,8 +93,8 @@ func tryLanguage(user db.User, language string, languageCode int, ctx context.Co
 
 	switch languageCode {
 	case 1:
-		languagePromt = "Hi, Do you speak english?"
-		languageResponse = "Yes, I do, how can I help you today?"
+		languagePromt = "Hello!"
+		languageResponse = "Hello! How are you?"
 	case 2:
 		languagePromt = "Привет, ты говоришь по-русски?"
 		languageResponse = "Да, я говорю по русски, чем я могу помочь тебе сегодня?"
